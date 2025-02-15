@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сериалы</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Первый блок с сериалом "Папик" -->
+    <div class="episode-block" id="block1">
+        <img src="img/papik.jpg" alt="Папик">
+        <p>Папик</p>
+    </div>
+
+    <!-- Второй блок с другим сериалом -->
+    <div class="episode-block" id="block2">
+        <img src="img/stomatolog.jpg" alt="Другой сериал">
+        <p>Стоматолог</p>
+    </div>
+
+    <!-- Контейнер видео -->
+    <div id="videoContainer" class="video">
+        <iframe id="videoFrame" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        <div class="controls">
+            <button id="prev" class="btn">Назад</button>
+            <button id="next" class="btn">Вперед</button>
+            <button id="close" class="btn close-btn">Закрыть</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
